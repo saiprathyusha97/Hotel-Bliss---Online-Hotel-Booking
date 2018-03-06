@@ -1,0 +1,58 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Registration Page</title>
+<link href="style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!--wefonts-->
+		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+<header class="w3-container w3-teal">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script>
+  $(document).ready(function() {
+  $("#datepicker").datepicker();
+ });
+  </script>
+     <h1 style="font-size:290%; text-align:center; color: #000080; font-family:times new roman;" ><i>Hotel Sheraton</i></h1>	
+</header>
+</head>
+<body>
+<div class="main">
+		<div class="login-form">
+			<h1>Become a Member</h1>
+					<div class="head">
+						<img src="user.png" alt=""/>
+					</div>
+				<form action="Register" method="post">
+						Username<input type="text" class="text" value="" name = "username" required  >
+						Email-id<input type="text" class="text" value="" name = "email" required >
+						Contact<input type="text" class="text" value="" name = "contact"required >
+						Password<input type="password" value="" name = "password" required>
+						DOB<input type="date" class="text" value="" name = "dob" required>
+						<table >
+						<tr>
+						Gender<td><input type="text" class="text" value="" required></td>
+						<td><input type="radio" class="text" name="gender" value="male" >Male
+						<input type="radio" class="text" name="gender" value="Female" >Female</td>
+						</tr>
+						</table>
+						
+						<div class="submit">
+							<input type="submit" onclick="myFunction()" value="REGISTER" >
+							 
+					</div>	
+					
+				</form>
+			</div>
+			
+		</div>
+
+			
+</body>
+</html>
